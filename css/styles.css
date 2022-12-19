@@ -1,9 +1,11 @@
 :root {
   --grey-dark: #2e2f42;
-  --grey-light: #434455;
-  --primary: #4D5AE5;
-  --primary-dark: #404BBF;
+  --dark-gray: #434455;
+  --primary: #4d5ae5;
+  --primary-dark: #404bbf;
   --white: #ffffff;
+  --light: #f4f4fd;
+  --light-gray: #e7e9fc;
 }
 
 body {
@@ -35,8 +37,9 @@ body {
 .link {
   text-decoration: none;
 }
+
 .header {
-  background: var(--white)
+  background: var(--white);
 }
 .header-logo {
 }
@@ -51,7 +54,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color:  var(--primary)
+  color: var(--primary);
 }
 .logo {
   color: var(--grey-dark);
@@ -62,7 +65,7 @@ body {
 .header-mailto:focus,
 .header-tel:hover,
 .header-tel:focus {
-  color: var(--primary)
+  color: var(--primary);
 }
 .header-list {
 }
@@ -84,7 +87,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--grey-light);
+  color: var(--dark-gray);
 }
 .header-tel {
 }
@@ -100,18 +103,20 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--white)
+  color: var(--white);
 }
 .dark-btn {
-  background: var(--primary)
+  background: var(--primary);
   border: 0px;
   border-radius: 4px;
 }
+
 .dark-btn:hover,
 .dark-btn:focus {
-  background: var(--primary-dark)
-  color: #ffffff;
+  background: var(--primary-dark);
+  color: var(--white);
 }
+
 .dark-btn-title {
   font-family: "Roboto";
   font-style: normal;
@@ -121,7 +126,7 @@ body {
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
-  color: var(--white)
+  color: var(--white);
   cursor: pointer;
 }
 
@@ -130,10 +135,13 @@ body {
 .light {
   margin-top: 120px;
 }
+
 .light-list {
 }
+
 .light-item {
 }
+
 .light-title {
   font-weight: 600;
   font-size: 20px;
@@ -141,18 +149,20 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
 }
+
 .light-after-title {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--grey-light);
+  color: var(--dark-gray);
 }
 
 /* -------------SECTION WORK------------- */
 
 .work {
 }
+
 .work-title {
   font-weight: 600;
   font-size: 36px;
@@ -161,16 +171,19 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
+
 .work-list {
 }
+
 .work-item {
 }
 
 /* -------------SECTION TEAM------------- */
 
 .team {
-  background: #f4f4fd;
+  background: var(--light);
 }
+
 .team-title {
   font-weight: 600;
   font-size: 36px;
@@ -179,13 +192,16 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
+
 .team-list {
 }
+
 .team-item {
-  background: var(--white)
+  background: var(--white);
   width: 264px;
   height: 380px;
 }
+
 .team-name {
   font-weight: 600;
   font-size: 20px;
@@ -193,13 +209,14 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
 }
+
 .team-profession {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--grey-light);
+  color: var(--dark-gray);
 }
 
 /* -------------FOOTER------------- */
@@ -207,15 +224,17 @@ body {
 .footer {
   background: var(--grey-dark);
 }
+
 .logos {
-  color: #f4f4fd;
+  color: var(--light);
 }
+
 .footer-title {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #e7e9fc;
+  color: var(--light-gray);
 }
 
 /* -----------------PORTFOLIO----------------- */
@@ -224,13 +243,17 @@ body {
 
 .filter {
 }
+
 .filter-list {
 }
+
 .filter-item {
 }
+
 .filter-item-img {
-  background: var(--white)
+  background: var(--white);
 }
+
 .filter-btn {
   font-family: "Roboto";
   font-style: normal;
@@ -241,27 +264,30 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: var(--primary)
-  background-color: #f4f4fd;
+  color: var(--primary);
+  background-color: var(--light);
   border: 0;
   cursor: pointer;
   border-radius: 4px;
 }
+
 .filter-btn:hover,
 .filter-btn:focus {
-  background: var(--primary)
-  color: #ffffff;
+  background: var(--primary);
+  color: var(--white);
 }
+
 .filter-title {
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+
 .filter-after-title {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--grey-light);
+  color: var(--dark-gray);
 }
