@@ -1,5 +1,5 @@
 :root {
-  --grey-dark: #2e2f42;
+  --dark-blue: #2e2f42;
   --dark-gray: #434455;
   --primary: #4d5ae5;
   --primary-dark: #404bbf;
@@ -10,7 +10,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--grey-dark);
+  color: var(--dark-blue);
 }
 
 .visually-hidden {
@@ -57,7 +57,7 @@ body {
   color: var(--primary);
 }
 .logo {
-  color: var(--grey-dark);
+  color: var(--dark-blue);
 }
 .header-link:hover,
 .header-link:focus,
@@ -76,7 +76,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--grey-dark);
+  color: var(--dark-blue);
 }
 
 .header-mailto,
@@ -95,7 +95,7 @@ body {
 /* -------------SECTION DARK------------- */
 
 .dark {
-  background: var(--grey-dark);
+  background: var(--dark-blue);
 }
 .dark-title {
   font-weight: 600;
@@ -222,7 +222,7 @@ body {
 /* -------------FOOTER------------- */
 
 .footer {
-  background: var(--grey-dark);
+  background: var(--dark-blue);
 }
 
 .logos {
