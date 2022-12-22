@@ -46,7 +46,6 @@ body {
 .header-logo,
 .footer-logos {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
@@ -72,18 +71,20 @@ body {
 .header-item {
 }
 .header-link {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--dark-blue);
 }
 
+.current {
+  color: var(--primary);
+}
+
 .header-mailto,
 .header-tel {
   font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -98,7 +99,7 @@ body {
   background: var(--dark-blue);
 }
 .dark-title {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -114,13 +115,11 @@ body {
 .dark-btn:hover,
 .dark-btn:focus {
   background: var(--primary-dark);
-  color: var(--white);
 }
 
 .dark-btn-title {
   font-family: "Roboto";
-  font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.18;
   display: flex;
@@ -133,7 +132,6 @@ body {
 /* -------------SECTION LIGHT------------- */
 
 .light {
-  margin-top: 120px;
 }
 
 .light-list {
@@ -143,15 +141,13 @@ body {
 }
 
 .light-title {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: left;
 }
 
 .light-after-title {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -164,7 +160,7 @@ body {
 }
 
 .work-title {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -185,7 +181,7 @@ body {
 }
 
 .team-title {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -203,7 +199,7 @@ body {
 }
 
 .team-name {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
@@ -211,7 +207,6 @@ body {
 }
 
 .team-profession {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
@@ -230,7 +225,6 @@ body {
 }
 
 .footer-title {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -256,8 +250,7 @@ body {
 
 .filter-btn {
   font-family: "Roboto";
-  font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.5;
   display: flex;
@@ -278,14 +271,13 @@ body {
 }
 
 .filter-title {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
 .filter-after-title {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
